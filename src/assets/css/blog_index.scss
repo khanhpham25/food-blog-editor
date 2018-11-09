@@ -1,0 +1,18 @@
+.blog-index-container {
+  background-color: #fff;
+  color: #000;
+  min-height: 100vh;
+  text-align: center;
+
+  .container-header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    justify-content: center;
+  }
+
+  hr {
+    margin: 0 30px;
+  }
+}

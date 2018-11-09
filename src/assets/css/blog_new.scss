@@ -1,0 +1,38 @@
+.blog-new-container {
+  background-color: #fff;
+  color: #000;
+  min-height: 100vh;
+  text-align: center;
+
+  .container-header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(10px + 2vmin);
+    justify-content: center;
+  }
+
+  hr {
+    margin: 10px 30px;
+  }
+
+  .back-to-index {
+    text-align: left;
+    padding-left: 40px;
+  }
+
+  .new-form {
+    margin-top: 10px;
+    padding: 0 25%;
+
+    .image-uploader {
+      width: 100%;
+    }
+
+    .food-name-input {
+      margin-top: 5px;
+      padding: 5px;
+      width: calc(100% - 10px);
+    }
+  }
+}

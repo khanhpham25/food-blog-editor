@@ -1,3 +1,7 @@
+@import 'blog_index.css';
+@import 'blog_new.css';
+@import '~font-awesome/css/font-awesome.min.css';
+
 body {
   margin: 0;
   padding: 0;

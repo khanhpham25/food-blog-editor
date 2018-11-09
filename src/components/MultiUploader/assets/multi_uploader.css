@@ -1,0 +1,30 @@
+.multi-uploader {
+  position: relative; }
+  .multi-uploader form {
+    /* top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -250px;
+    width: 500px;
+    height: 200px; */
+    position: relative;
+    border: 4px dashed #969696; }
+    .multi-uploader form input {
+      position: absolute;
+      margin: 0;
+      margin-left: -50%;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      outline: none;
+      opacity: 0; }
+    .multi-uploader form p {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      /* line-height: 170px; */
+      color: #969696;
+      font-family: Arial; }
+    .multi-uploader form .main-icon {
+      color: #2583a8;
+      font-size: 48px; }
