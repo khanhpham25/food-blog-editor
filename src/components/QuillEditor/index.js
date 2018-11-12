@@ -4,8 +4,11 @@ import 'react-quill/dist/quill.snow.css';
 import './assets/editor.css';
 import ImageResize from 'quill-image-resize-module';
 import VideoResize from 'quill-video-resize-module';
+import { ImageDrop } from 'quill-image-drop-module';
+
 Quill.register('modules/ImageResize', ImageResize);
 Quill.register('modules/VideoResize', VideoResize);
+Quill.register('modules/imageDrop', ImageDrop);
 
 export default class QuillEditor extends Component {
   render() {
@@ -43,7 +46,8 @@ QuillEditor.modules = {
   },
   VideoResize: {
     modules: ['Resize', 'DisplaySize', 'Toolbar']
-  }
+  },
+  imageDrop: true
 }
 
 QuillEditor.formats = [
